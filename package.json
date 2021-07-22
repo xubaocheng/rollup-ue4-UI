@@ -1,5 +1,5 @@
 {
-  "name": "rollup-dev",
+  "name": "full-screen-ue4-ui",
   "version": "1.0.0",
   "description": "数据大屏UI组件库 to ue4",
   "main": "dist/full.screen.datav.js",
@@ -9,6 +9,10 @@
     "build:prod": "npm run lint && rollup -c rollup.config.prod.js",
     "lint": "eslint ./src"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "keywords": [
     "vue",
     "datav"
